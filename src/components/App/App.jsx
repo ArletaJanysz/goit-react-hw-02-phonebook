@@ -26,9 +26,10 @@ export function App() {
       <div className="phonebook-wrapper">
         <h1 className="phonebook-title">Phonebook</h1>
         <h6 className="phonebook-subtitle">by Arleta Janysz</h6>
+
+        <ContactForm onAddContact={addContact} contacts={contacts} />
+        <h2 className="phonebook-contacts">Contacts</h2>
       </div>
-      <ContactForm onAddContact={addContact} contacts={contacts} />
-      <h2>Contacts</h2>
       <Filter filter={filter} onChangeFilter={handleFilterChange} />
       <ContactList
         contacts={contacts}
