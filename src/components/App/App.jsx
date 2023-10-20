@@ -22,7 +22,7 @@ export function App() {
   };
 
   return (
-    <div className="phonebook-container">
+    <div className="container">
       <div className="phonebook-wrapper">
         <h1 className="phonebook-title">Phonebook</h1>
         <h6 className="phonebook-subtitle">by Arleta Janysz</h6>

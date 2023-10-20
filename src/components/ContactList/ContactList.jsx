@@ -9,19 +9,21 @@ const ContactList = ({ contacts, filter, onDeleteContact }) => {
   );
 
   return (
-    <ul className="contacts-list">
-      {filteredContacts.map(contact => (
-        <li className="contacts-item" key={contact.id}>
-          {contact.name}: {contact.number}
-          <button
-            className="delete-btn"
-            onClick={() => onDeleteContact(contact.id)}
-          >
-            Delete
-          </button>
-        </li>
-      ))}
-    </ul>
+    <div className="container">
+      <ul className="contacts-list">
+        {filteredContacts.map(contact => (
+          <li className="contacts-item" key={contact.id}>
+            {contact.name}: {contact.number}
+            <button
+              className="delete-btn"
+              onClick={() => onDeleteContact(contact.id)}
+            >
+              Delete
+            </button>
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 };
 

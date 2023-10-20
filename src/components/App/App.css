@@ -19,11 +19,13 @@
 }
 
 .phonebook-subtitle {
-  margin: 0;
+  margin: 0 0 10px;
   font-weight: 400;
   font-style: italic;
   color: rgb(136, 136, 136);
 }
+
+
 
 .phonebook-contacts {
   margin: 0;

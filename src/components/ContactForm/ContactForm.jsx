@@ -37,7 +37,7 @@ class ContactForm extends Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
-        <div className="input-container">
+        <div className="container">
           <input
             className="phonebook-input"
             type="text"

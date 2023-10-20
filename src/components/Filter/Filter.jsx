@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import '../Filter/Filter.css';
 
 const Filter = ({ filter, onChangeFilter }) => (
-  <div className="input-container">
+  <div className="container">
     <input
       className="filter-input"
       type="text"
